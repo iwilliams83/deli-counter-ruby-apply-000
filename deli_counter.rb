@@ -19,11 +19,11 @@ def take_a_number(deli, person) #q is the array, and s is the person's name as a
       puts "Welcome, #{person}. You are number #{n} in line."
 end
 
-def now_serving(arr)
-    if arr.length == 0
+def now_serving(deli)
+    if deli.length == 0
      puts "There is nobody waiting to be served!"
     else
-     puts "Currently serving #{arr[0]}."
-     arr.shift
+     puts "Currently serving #{deli[0]}."
+     deli.shift
     end
 end
