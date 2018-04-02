@@ -13,10 +13,10 @@ def line(deli)
   end
 end
 
-def take_a_number(deli, person) #q is the array, and s is the person's name as a string
+def take_a_number(deli, person)
       deli << person
       n = deli.length
-      puts "Welcome, #{person}. You are number #{n} in line."
+      puts "Welcome, #{person}. You are number #{deli.length} in line."
 end
 
 def now_serving(deli)
