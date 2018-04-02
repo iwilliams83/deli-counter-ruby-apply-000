@@ -17,7 +17,6 @@ def take_a_number(deli, person) #q is the array, and s is the person's name as a
       deli << person
       n = deli.length
       puts "Welcome, #{person}. You are number #{n} in line."
-  end
 end
 
 def now_serving(arr)
